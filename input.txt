@@ -1,0 +1,83 @@
+# test program 1
+
+welcome_msg = "Hello and Welcome sir!";
+println ~welcome_msg;
+
+print "Testing assignment: ";
+test = 5;
+test += 10;
+test /= 2;
+println test;
+
+friends = [43, 123, 56, 1, 31, 7, 39, 6, 57];
+print "All friends: ";
+for f in friends: f ;;
+println "";
+
+idx = 1;
+friends[idx] = 0;
+print "Best friend: ";
+println friends[idx];
+
+r = 6;
+print "Repeater gun -> ";
+for i in 1..5: r ;;
+println "";
+
+def do_nothing:
+	pass 
+;;
+class for_nothing:
+	pass 
+;;
+
+x = read "Enter mark: ";
+print "Your grade is: ";
+if x < 0 or x > 100: -1 ;;
+elif x >= 90: 4 ;;
+elif x >= 80: 3.75 ;;
+elif x >= 70: 3.5 ;;
+elif x >= 60: 3.25 ;;
+elif x >= 50: 3 ;;
+elif x >= 40: 2 ;;
+else: 0 ;;
+println "";
+
+println "Leap year calculator";
+println "1 = Leap";
+println "0 = Not leap";
+year = read "Enter year: ";
+print "Result: ";
+if year % 4 == 0:
+	if year % 100 != 0 or year % 400 == 0:
+		1
+	;;
+	else: 
+		0 
+	;;
+;;
+else:
+	0
+;;
+println "";
+
+println "Python style % operation";
+print "7.5 % 2.2: ";
+println 7.5 % 2.2;
+
+pi = 3.1415926535;
+print "sin(pi / 2): ";
+println sin pi / 2;
+
+print "factorial 5: ";
+println fact 5;
+
+print "abs(-10): ";
+println abs -10;
+
+println "Error case demonstration: ";
+println alu;
+println friends[20];
+prime 12;
+
+# test program end
